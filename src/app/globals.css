@@ -60,4 +60,36 @@ body {
   font-weight: 500;
   font-style: normal;
   font-size: 1.6rem;
+  /* border: 0.3rem solid #f00;  /*Borda para mostrar o conteudo total do site */
+  display: flex;
+  justify-content: center;
+}
+
+.containerGlobal {
+	width: 100%;
+	max-width: 112.8rem;
+	/* border: 0.3rem solid #00f; */ /*Borda para mostrar aonde colocarei as informações */
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	/* height: 100vh; */
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 3.2rem;
+	margin: 1rem; 
+}
+
+
+h2 {
+	font-size: 2.8rem;
+	margin: 0.6rem; 
+}
+
+
+h3 {
+	font-size: 1.6rem;
+	margin: 0.3rem; 
+	font-weight: bold;
 }
