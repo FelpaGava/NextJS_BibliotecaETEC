@@ -11,7 +11,7 @@ export default function Home() {
 
          <div className={styles.containerImagem}>
             <Image
-               src="/download.jfif"
+               src="/Growligth.png"
                width={500}
                height={500}
                alt="Imagem"
@@ -19,7 +19,7 @@ export default function Home() {
             />
 
             <Image
-               src="/download.jfif"
+               src="/Growligth.png"
                width={50}
                height={50}
                alt="Imagem"
